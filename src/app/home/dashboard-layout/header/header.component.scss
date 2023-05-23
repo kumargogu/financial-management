@@ -137,10 +137,10 @@
 
 .header-nav .badge-number {
     position: absolute;
-    inset: 4px 6px auto auto;
+    inset: -4px -2px auto auto;
     font-weight: normal;
-    font-size: 6px;
-    padding: 3px 6px;
+    font-size: 11px;
+    padding: 2px 4px;
 }
 
 .header-nav .notifications .notification-item {
