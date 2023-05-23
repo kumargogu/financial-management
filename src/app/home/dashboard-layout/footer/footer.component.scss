@@ -1,0 +1,80 @@
+.footer {
+    padding: 1px 0;
+    font-size: 14px;
+    transition: all 0.3s;
+    border-right: 1px solid rgba(255, 255, 255, 0.5);
+    border-top: 1px solid #cddfff;
+    background-color: #07075e;
+    z-index: 997 !important;
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+
+}
+
+.footer .copyright {
+    color: #D1D5DB;
+
+}
+
+.footer .copyright .footer-list {
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.footer .copyright .footer-list li {
+    border-right: 1px solid #7d8998;
+    padding: 0 7px;
+    //line-height: 2.5;
+    display: inline-block;
+    *display: inline;
+    /*IE7*/
+    *zoom: 1;
+    /*IE7*/
+}
+
+.footer .copyright .footer-list li:hover {
+    color: white;
+    cursor: pointer;
+}
+
+/*--------------------------------------------------------------
+  # Back to top button
+  --------------------------------------------------------------*/
+.back-to-top {
+    position: fixed;
+    /*  visibility: hidden; */
+    opacity: 1;
+    right: 5px;
+    bottom: 5px;
+    z-index: 99999;
+    background: #232f3e;
+    ;
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    transition: all 0.4s;
+}
+
+.back-to-top i {
+    font-size: 24px;
+    color: #fff;
+    line-height: 0;
+}
+
+.back-to-top:hover {
+    background: #FF9900;
+    color: #fff;
+}
+
+.back-to-top .active {
+    visibility: visible;
+    background-color: red;
+    opacity: 1;
+}
